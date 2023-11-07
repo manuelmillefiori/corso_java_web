@@ -45,6 +45,24 @@ class Inventario
 
    /**
     * @brief
+    * Metodo per rimuovere un determinato giocattolo
+    * dall'inventario
+    * 
+    * @param id
+    * Id del giocattolo da rimuovere
+    * 
+    * @return
+    * true = Giocattolo rimosso correttamente
+    * false = Rimozione del giocattolo fallita
+    */
+   public boolean removeGiocattolo(int id)
+   {
+      // Rimuovo il giocattolo in base all'id
+      return giocattoli.removeIf(giocattolo -> giocattolo.getId() == id);
+   }
+
+   /**
+    * @brief
     * Metodo per ottenere il numero di giocattoli
     * registrati nell'inventario
     * 

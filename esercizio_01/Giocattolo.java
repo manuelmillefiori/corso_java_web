@@ -32,6 +32,13 @@ public class Giocattolo
       this.etaConsigliata = etaConsigliata;
    }
 
+   // Override del toString
+   @Override
+   public String toString()
+   {
+      return "ID: " + this.id + "\nNome: " + this.nome + "\nPrezzo: " + this.prezzo + "\nEtà consigliata: " + this.etaConsigliata;
+   }
+
    public int getId()
    {
       return this.id;

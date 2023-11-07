@@ -1,13 +1,13 @@
 package esercizio_01;
 
-public class Cliente extends Utente
+public class Amministratore extends Utente
 {
    /**
     * @brief
     * Costruttore che invoca il costruttore
     * dell'utente
     */
-   public Cliente(int id, String nome, String email)
+   public Amministratore(int id, String nome, String email)
    {
       // Invoco il costruttore della superclasse
       // per inizializzare i vari campi

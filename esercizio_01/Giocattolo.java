@@ -4,8 +4,33 @@ public class Giocattolo
 {
    private int id;
    private String nome;
-   private String cognome;
+   private float prezzo;
    private short etaConsigliata;
+
+   /**
+    * @brief
+    * Costruttore per inizializzare un giocattolo
+    * 
+    * @param id
+    * Id del giocattolo
+    * 
+    * @param nome
+    * Nome del giocattolo
+    * 
+    * @param prezzo
+    * Prezzo del giocattolo
+    * 
+    * @param etaConsigliata
+    * Età consigliata per l'utilizzo del giocattolo
+    */
+   public Giocattolo(int id, String nome, float prezzo, short etaConsigliata)
+   {
+      // Inizializzo i vari campi
+      this.id = id;
+      this.nome = nome;
+      this.prezzo = prezzo;
+      this.etaConsigliata = etaConsigliata;
+   }
 
    public int getId()
    {
@@ -27,14 +52,14 @@ public class Giocattolo
       this.nome = nome;
    }
 
-   public String getCognome()
+   public float getPrezzo()
    {
-      return this.cognome;
+      return this.prezzo;
    }
 
-   public void setCognome(String cognome)
+   public void setPrezzo(float prezzo)
    {
-      this.cognome = cognome;
+      this.prezzo = prezzo;
    }
 
    public short getEtaConsigliata()

@@ -1,2 +1,2 @@
-# corso_java_web
+# Corso Java Web
 Repository per il corso di Java Web

@@ -1,6 +1,6 @@
 package esercizio_01;
 
-public class Giocattolo
+class Giocattolo
 {
    private int id;
    private String nome;

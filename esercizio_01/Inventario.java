@@ -3,7 +3,7 @@ package esercizio_01;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Inventario
+class Inventario
 {
    // Lista contenente tutti i giocattoli
    List<Giocattolo> giocattoli = new ArrayList<>();

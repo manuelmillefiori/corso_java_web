@@ -1,6 +1,6 @@
 package esercizio_01;
 
-public class Amministratore extends Utente
+class Amministratore extends Utente
 {
    /**
     * @brief

@@ -1,6 +1,6 @@
 package esercizio_01;
 
-public class Vendita
+class Vendita extends RegistroVendite
 {
    private int id;
    private int idGiocattolo;

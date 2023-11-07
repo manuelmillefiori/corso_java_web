@@ -1,6 +1,6 @@
 package esercizio_01;
 
-public class Cliente extends Utente
+class Cliente extends Utente
 {
    /**
     * @brief

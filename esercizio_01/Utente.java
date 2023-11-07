@@ -1,6 +1,6 @@
 package esercizio_01;
 
-public class Utente
+class Utente
 {
    protected int id;
    protected String nome;
